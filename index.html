@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Diag</title>
+    <link rel="shortcut icon" href="./images/master-m-logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--CDN Link-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--End of CDN Link-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/multiple-el-carousel.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <script src="./script/script.js" defer></script>
+    <script src="./script/carousel.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Master Diag</h1>
+        <ul>
+            <button id="open-btn">Contact</button>
+        </ul>
+    </header>
+
+    <div class="location"> <img src="./images/ic_location_on_128_28437.png" alt=""> <p>Voluntari, Str. Buzaului Nr. 4</p> </div>
+
+    <div class="pop-up" id="pop-up">
+        
+        <button id="close-btn">✖</button>
+
+        <li><a href="https://instagram.com/master_diagnose">Instagram</a></li>
+        <li><a href="https://www.facebook.com/roncea.mihai87/">Facebook</a></li>
+        <li><p>master_diagnose@yahoo.com</p></li>
+    </div>
+
+    <section class="carousel">
+        <input class="carousel__input" type="radio" id="carousel__slide--1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        <div class="carousel__slide" style="background-image:url(./images/img-3.jpeg)">
+            <img src="./images/img-3.jpeg" class="carousel__img">
+        </div>
+    
+        <input class="carousel__input" type="radio" id="carousel__slide--2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel__slide" style="background-image:url(./images/img-2.jpeg)">
+            <img src="./images/img-2.jpeg" class="carousel__img">
+        </div>
+    
+        <input class="carousel__input" type="radio" id="carousel__slide--3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel__slide" style="background-image:url(./images/img-1.jpeg)">
+            <img src="./images/img-1.jpeg" class="carousel__img">
+        </div>
+    
+        <input class="carousel__input" type="radio" id="carousel__slide--4" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel__slide" style="background-image:url(./images/img-4.jpeg)">
+            <img src="./images/img-4.jpeg" class="carousel__img">
+        </div>
+    
+        <input class="carousel__input" type="radio" id="carousel__slide--5" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel__slide" style="background-image:url(./images/img-5.jpeg)">
+            <img src="./images/img-5.jpeg" class="carousel__img">
+        </div>
+        
+        <!-- ARROWS -->
+        <label for="carousel__slide--5" class="carousel__arrow carousel__arrow--prev carousel__arrow--1"></label>
+        <label for="carousel__slide--5" class="carousel__arrow carousel__arrow--next carousel__arrow--4"></label>
+        <label for="carousel__slide--4" class="carousel__arrow carousel__arrow--prev carousel__arrow--5"></label>
+        <label for="carousel__slide--4" class="carousel__arrow carousel__arrow--next carousel__arrow--3"></label>
+        <label for="carousel__slide--3" class="carousel__arrow carousel__arrow--prev carousel__arrow--4"></label>
+        <label for="carousel__slide--3" class="carousel__arrow carousel__arrow--next carousel__arrow--2"></label>
+        <label for="carousel__slide--2" class="carousel__arrow carousel__arrow--prev carousel__arrow--3"></label>
+        <label for="carousel__slide--2" class="carousel__arrow carousel__arrow--next carousel__arrow--1"></label>
+        <label for="carousel__slide--1" class="carousel__arrow carousel__arrow--prev carousel__arrow--2"></label>
+        <label for="carousel__slide--1" class="carousel__arrow carousel__arrow--next carousel__arrow--5"></label>
+    
+        <!-- BULLETS -->
+        <ol class="carousel__bullets">
+            <li>
+                <label for="carousel__slide--1" class="carousel__bullets--bullet"></label>
+            </li>
+            <li>
+                <label for="carousel__slide--2" class="carousel__bullets--bullet"></label>
+            </li>
+            <li>
+                <label for="carousel__slide--3" class="carousel__bullets--bullet"></label>
+            </li>
+            <li>
+                <label for="carousel__slide--4" class="carousel__bullets--bullet"></label>
+            </li>
+            <li>
+                <label for="carousel__slide--5" class="carousel__bullets--bullet"></label>
+            </li>
+        </ol>
+    </section>
+
+    <div class="img-cont">
+        <div class="email-cont">
+            <div class="phone"><img src="./images/phone-i.png" alt="" width="50px"></div>
+            <p id="txt-email"> +40 761 404 093</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="img-content">
+
+            
+
+        </div>
+
+        <div class="info">
+
+            <h1> Servicii: </h1>
+
+            <div class="services">
+                
+                <ul>
+
+                    <li>
+                        <h3> Mecanica si Electrica Auto </h3>
+                    </li>
+
+                    <li>
+                        <h3> Diagnoza multimarca </h3>
+                    </li>
+
+                    <li>
+                        <h3> Soft </h3>
+                    </li>
+
+                    <li>
+                        <h3> Remapare ECU </h3>
+                    </li>
+
+                    <li>
+                        <h3> Piese auto NOI si SH </h3>
+                    </li>
+
+                    <li>
+                        <h3> ITP </h3>
+                    </li>
+
+                    <li>
+                        <h3> Geometrie Roti </h3>
+                    </li>
+                    
+                    <li>
+                        <h3> Remediere probleme Suspensii Pneumatice  </h3>
+                    </li>
+
+                    <li>
+                        <h3> Full Service diagnoza computerizata cu aparatura dedicata gama VAG, BMW, MERCEDES  </h3>
+                    </li>
+
+                    <li>
+                        <h3> Incarcare freon si remediere probleme climatizare  </h3>
+                    </li>
+
+                    <li>
+                        <h3> Spalatorie Auto  </h3>
+                    </li>
+
+                    <li>
+                        <h3> Detailing Auto  </h3>
+                    </li>
+
+                </ul>
+
+                <div class="wallpaper">
+                    <img src="./images/wallpaper.jpeg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sponsor">
+
+        <!--Item slider text-->
+<div class="container">
+    <div class="row" id="slider-text">
+    </div>
+  </div>
+  
+  <div class="container-fluid">
+  
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="carousel multi-item-carousel slide" id="myCarousel" data-ride="carousel">
+          <div class="carousel-inner">
+  
+            <div class="item active">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-audi.png" class="img-responsive center-block"></a>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-bmw.png" class="img-responsive center-block" width="150px"></a>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-skoda.png" class="img-responsive center-block" width="150px"></a>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-volvo.png" class="img-responsive center-block" width="250px"></a>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-porsche.png" class="img-responsive center-block" width="300px"></a>
+              </div>
+            </div>
+  
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <a href="#"><img src="./images/logo-renault.png" class="img-responsive center-block" width="150px"></a>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div id="slider-control">
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="https://img.icons8.com/ios-filled/50/000000/previous.png" alt="Left" class="img-responsive"></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="https://img.icons8.com/ios-filled/50/000000/next.png" alt="Right" class="img-responsive"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--End of Sponsors-->
+
+    </div>
+
+    <footer>
+        <p>&copy;copyright Master Diagnose</p>
+    </footer>
+
+</body>
+</html>
