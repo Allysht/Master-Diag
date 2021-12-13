@@ -230,12 +230,6 @@ footer p {
     position: absolute;
 }
 
-.sponsor {
-    width: 100%;
-    background:rgba(0, 0, 0, 0.521);
-    height: 250px;
-}
-
 /* Media Query */
 
 @media screen and (max-width: 980px) {
@@ -268,10 +262,6 @@ footer p {
 
     #txt-email {
         font-size: 1rem;
-    }
-
-    .img-responsive {
-        width: 150px;
     }
 
 }
